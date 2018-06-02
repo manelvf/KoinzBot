@@ -1,18 +1,16 @@
 {
-  "name": "koinzbot",
+  "name": "deutschbot",
   "version": "1.0.0",
   "description": "A bot for getting cryptocurrencies prices",
   "main": "index.js",
   "dependencies": {
     "telegraf": "^3.18.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "jest": "^22.4.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/manelvf/KoinzBot.git"
+  "scripts": {
+    "test": "jest"
   },
   "keywords": [
     "cryptocurrencies",
@@ -20,9 +18,5 @@
     "bot"
   ],
   "author": "Manel Vilar et al.",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/manelvf/KoinzBot/issues"
-  },
-  "homepage": "https://github.com/manelvf/KoinzBot#readme"
+  "license": "ISC"
 }

@@ -1,5 +1,6 @@
 apps:
   - script : index.js
+    name: "deutschbot"
     watch  : true
     env    :
       NODE_ENV: development

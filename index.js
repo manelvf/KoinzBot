@@ -4,7 +4,9 @@ const fetch = require('node-fetch');
 const config = require('./config.json');
 const bot = new Telegraf(config.bot_token);
 
+
 console.log("Bot instantiated");
+
 
 bot.start((ctx) => {
   console.log('started:', ctx.from.id);

@@ -1,3 +1,5 @@
 {
-	"bot_token": "<get this value from @BotFather>"
+	"bot_token": "<get this value from @BotFather>",
+  "app_id": "Oxford dictionaries app id",
+  "app_key": "Oxford dictionaries secret key"
 }
